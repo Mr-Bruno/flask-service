@@ -14,7 +14,7 @@ python service.py
 # This will upload the information within the file
 curl -i -F name=test -F filedata=@name_of_the_file http://localhost:5000/uploads
 
-# This will request a url from which to retrieve the information
+# This will request a url to retrieve the information about
 curl -iXPOST -H "Content-Type:text/plain" -X POST -d "url_to_check" http://localhost:5000/request
 
 
